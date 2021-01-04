@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Caveat';
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #81888e;
+}
+
+hr{
+	color:#ecb920;
+	/*max-width: 65px;*/
+	
+	
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 500px;
+	text-transform: uppercase;
+}
+
+.btn-warning{
+	background-color: #ecb920;
+	border-color: #ecb920;
+}
+
+.btn-warning:hover{
+	background-color: #8a7022;
+	border-color: #8a7022;
+	border-width: 4px;
+}
+
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
